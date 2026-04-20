@@ -1,35 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon Product Card</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="nav.css">
+
   </head>
   <body>
-    <a
+<!-- nav-side -->
+     <nav class="nav-bar">
+   <div class="logo"><img src="images/amazon-logo-white.png" alt="Amazon Logo"></div>
+   <div class="search-group">
+    <input type="text" class="search-input" placeholder="Search">
+    <button class="search-btn">
+        <img src="images/search-icon.png" alt="Search">
+    </button>
+</div>
+    <div class="retord"><button class="create-button">Returns <br>& Orders</button></div>
+
+    <img class="cart-img" src="images/cart-icon.png" alt="Cart"><span class="cart-img  cart-word">Cart</span>
+  </nav>
+
+    <!--............................................................................-->
+
+   <a
       href="https://www.amazon.eg/-/en/"
       style="color: rgb(50, 135, 166); padding: 10px"
       >Back to Amazon</a
     >
+    <div class="all">
 
     <div class="bigdiv">
+
       <div id="image1">
         <img
           src="https://res.cloudinary.com/dmfbejyv0/image/upload/v1775939033/nike_zb3pyq.jpg"
           alt="Nike Product"
         />
+        <!-- <div class="featured">⭐Featured</div> -->
       </div>
 
       <div class="child1">
         <p style="font-family: Tahoma"><b>Nike Black Running Shoes</b></p>
         <div>
           <img
-            src="https://res.cloudinary.com/dmfbejyv0/image/upload/v1775938987/rating-45_ty2jxp.png"
+            src="images/rating-25.png"
             alt="Rating"
           />
           <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
-            >87</span
+            >25</span
           >
           <p
             style="
@@ -51,10 +72,412 @@
         </select>
       </div>
 
-      <div>
+      <div class="btn">
         <button class="Add-button Addbuy">Add to Cart</button>
         <button class="Buy-button Addbuy">Buy now</button>
       </div>
     </div>
+    
+    <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/bathroom-rug (1).jpg"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Floor mat</b></p>
+        <div>
+          <img
+            src="images/rating-0.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >0</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $75 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery tomorrow.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+    <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/black-2-slot-toaster.jpg"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Toaster Lever</b></p>
+        <div>
+          <img
+            src="images/rating-05.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >5</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $68 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery tomorrow.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+     <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/blackout-curtain-set-beige.webp"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Beige Eyelet Window Curtains</b></p>
+        <div>
+          <img
+            src="images/rating-10.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >10</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $80 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery tomorrow.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+     <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/blackout-curtains-black.jpg"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Black Rod Pocket Curtains</b></p>
+        <div>
+          <img
+            src="images/rating-15.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >15</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $12 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery by sunday.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+     <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/cotton-bath-towels-teal.webp"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Soft Cotton Bath Towels</b></p>
+        <div>
+          <img
+            src="images/rating-25.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >25</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $87 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery by Friday.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+     <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+     <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/countertop-blender-64-oz.jpg"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b><span lang="ar">Professional High Speed Blender</b></p>
+        <div>
+          <img
+            src="images/rating-30.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >30</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $43 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery tomorrow.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+     <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+     <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/double-elongated-twist-french-wire-earrings.webp"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Gold Dangle Hoop Earrings</b></p>
+        <div>
+          <img
+            src="images/rating-35.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >35</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $18 - in stock
+
+          </p>
+          <p style="font-family: Tahoma">Free delivery tomorrow.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+     <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/men-cozy-fleece-zip-up-hoodie-red.jpg"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Red Zip-Up Hooded Sweatshirt</b></p>
+        <div>
+          <img
+            src="images/rating-40.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >40</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $77 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery tomorrow.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+
+     <div class="bigdiv">
+      <div id="image1">
+        <img
+          src="images/coffeemaker-with-glass-carafe-black.jpg"
+          alt="Nike Product"
+        />
+      </div>
+
+      <div class="child1">
+        <p style="font-family: Tahoma"><b>Black Drip Coffee Maker</b></p>
+        <div>
+          <img
+            src="images/rating-50.png"
+            alt="Rating"
+          />
+          <span style="color: rgba(64, 144, 255, 0.949); font-family: Tahoma"
+            >50</span
+          >
+          <p
+            style="
+              color: rgb(30, 146, 12);
+              font-family: Tahoma;
+              margin-top: 2px;
+            "
+          >
+            $88 - in stock
+          </p>
+          <p style="font-family: Tahoma">Free delivery by Friday.</p>
+        </div>
+      </div>
+      <div class="select">
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+
+      <div class="btn">
+        <button class="Add-button Addbuy">Add to Cart</button>
+        <button class="Buy-button Addbuy">Buy now</button>
+      </div>
+    </div>
+
+          </div>
+ 
+  </div>
   </body>
 </html>
