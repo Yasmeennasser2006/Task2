@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #f5f5f5; 
+  background-color: #f5f5f5;
   font-family: Tahoma;
 }
 .Addbuy:hover {
@@ -14,16 +14,15 @@ body {
 
 .Add-button {
   background-color: rgb(255, 216, 20);
-  margin-left: 8px;
 }
 
 .btn {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: row;
   gap: 8px;
   margin-top: 10px;
-  justify-content: flex-start;
+  justify-content: center;
+  gap: 40px;
 }
 
 .Addbuy {
@@ -36,32 +35,40 @@ body {
   white-space: nowrap;
   font-weight: 500px;
   transition: all 0.2s;
-  justify-content: center;
 }
 
 .Buy-button {
   background-color: rgb(255, 164, 28);
   color: black;
-  margin-left: 25px;
 }
+
 #image1 img {
   width: 100%;
-  height: 180px;           
-  object-fit: contain;   
+  height: 180px;
+  object-fit: contain;
   background-color: #f8f8f8;
   border-radius: 8px;
 }
 .bigdiv {
   margin: 20px;
   height: auto;
-  border: 1px solid #e0e0e0;    
+  border: 1px solid #e0e0e0;
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   background-color: white;
-  box-shadow:  4px  2px 5px 2px rgb(170, 169, 169);
+  box-shadow: 4px 2px 5px 2px rgb(170, 169, 169);
+  margin-top: 10px;
+}
+.bigdiv {
+  transition: all 0.3s ease;
+}
+.bigdiv:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
 }
 .select select {
   border-radius: 8px;
@@ -72,14 +79,12 @@ body {
   cursor: pointer;
 }
 .child1 img {
-  width: 100px;          
+  width: 100px;
   height: auto;
 }
-
 .child1 div p {
   margin: 5px 0;
 }
-
 .child1 p {
   margin: 8px 0 4px 0;
 }
@@ -90,4 +95,14 @@ body {
   padding: 20px;
   max-width: 1500px;
   margin: 0 auto;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+.cart img {
+  width: 40px;
+  height: 30px;
 }
