@@ -9,7 +9,7 @@ body {
   padding-top: 90px;
 }
 .notification {
-  top: 0%;
+  top: -10%;
   left: 40%;
   color: white;
   background-color: red;
@@ -148,5 +148,8 @@ body {
     margin-top: 10px;
     margin-left: 0px;
     margin-right: 30px;
+  } 
+   body {
+    padding-top: 140px;
   }
 }
